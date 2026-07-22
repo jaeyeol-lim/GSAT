@@ -16,6 +16,8 @@
 
 This repository contains the official implementation of GSAT as described in the paper: [Interpretable and Generalizable Graph Learning via Stochastic Attention Mechanism](https://arxiv.org/abs/2201.12987) (ICML 2022) by Siqi Miao, Mia Liu, and Pan Li.
 
+DrugOOD IC50 support is documented in [`DrugOOD/README.md`](DrugOOD/README.md).
+
 ## News
 - Mar. 15, 2023: Check out GSAT on [GOOD](https://github.com/divelab/GOOD) benchamrk with leaderboard [here](https://good.readthedocs.io/en/latest/leaderboard.html). GSAT (again) achieves multiple SOTA results on out-of-distribution generalization on the recent benchmark, while being highly interpretable!
 - Jan. 21, 2023: Check out our latest paper [Learnable Randomness Injection (LRI)](https://openreview.net/forum?id=6u7mf9s2A9) with code [here](https://github.com/Graph-COM/LRI), which is recently accepted to ICLR 2023! In LRI, we further generalize the idea of GSAT and propose four datasets with ground-truth interpretation labels from real-world scientific applications (instead of synthetic motif datasets to evaluate interpretability!).
